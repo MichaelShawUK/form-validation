@@ -1,0 +1,23 @@
+form > div > * {
+  display: block;
+  width: 200px;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+}
+
+input:invalid,
+.invalid-input {
+  background: #fcd;
+}
+
+#countries {
+  display: none;
+}
+
+.error {
+  color: red;
+}
